@@ -1,1 +1,60 @@
-.icon
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  color: white;
+  background: transparent;
+  padding: 1.25rem;
+  z-index: 999;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+header .text h1 {
+  font-size: 3rem;
+}
+
+header .text h2 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.links {
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  /* trata de cambiarlo a span  */
+  transition: all 1s ease;
+  background: #b3ffab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    turquoise,
+    #b3ffab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    turquoise,
+    #b3ffab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #B3FFAB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.one {
+-webkit-clip-path: circle(0% at 100% 0%);
+clip-path: circle(0% at 100% 0%);
+}
+
+.two{
+	-webkit-clip-path: circle(135% at 100% 0%);
+clip-path: circle(135% at 100% 0%);
+}
+
+.links a {
+	color: #333;
+}
+.icons span {
+	font-size: 1.85rem;
+}
